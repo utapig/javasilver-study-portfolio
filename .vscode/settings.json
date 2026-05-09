@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^\\[Console\\]::OutputEncoding = \\[System\\.Text\\.Encoding\\]::UTF8; \\$OutputEncoding = \\[System\\.Text\\.Encoding\\]::UTF8; \\$p='c:/Users/utapi/Documents/10_study/20260313_JavaStudy/app01_quiz/成果物/クラス図\\.drawio'; \\$i=1; Get-Content -Path \\$p -Encoding UTF8 \\| ForEach-Object \\{ '\\{0,4\\}: \\{1\\}' -f \\$i, \\$_; \\$i\\+\\+ \\}$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
